@@ -13,11 +13,11 @@ Just a couple plugins I wrote or forked and used in my Unity projects.  These wi
 Installation
 ------------
 If you don't already have a ```Plugins/``` folder in your project, create on and drop all the files in there.  Your structure should look like this:
---Assets/
-----Plugins/
-------<all C# plugin files go here...these are what talk to/interface the native iOS implementation files>
-------iOS/
---------<all iOS implementation files go here...these are the native Objective-C files that can use the Cocoa framework>
+				--Assets/
+				----Plugins/
+				------<all C# plugin files go here...these are what talk to/interface the native iOS implementation files>
+				------iOS/
+				--------<all iOS implementation files go here...these are the native Objective-C files that can use the Cocoa framework>
 
 
 After you have done this, and the time comes to build to device, you will need to add the ```Twitter.framework``` to your frameworks (Build Phases --> Link Binary With Libraries).
