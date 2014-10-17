@@ -29,15 +29,20 @@ This probably can and should be automated if you know about Unity/iOS post proce
 Alert View Usage Example
 ------------------------
 In any script file:
+
 ```AlertViewPlugin.ShowMessage("test title", "wo0t!  This is a normal alert view working in unity!");```
-(of course, you need to build to device to test...nothing happens if you test on Desktop)
+
+	(of course, you need to build to device to test...nothing happens if you test on Desktop)
 
 
 Twitter Usage Example
 ------------------------
 In any script file:
+
 ```TwitterPlugin.ComposeTweetWithScreenshot("I scored 5000 points!  Beat that!", "http://somelinkhere.com");```
-(of course, you need to build to device to test...nothing happens if you test on Desktop)
+
+	(of course, you need to build to device to test...nothing happens if you test on Desktop)
+
 *NOTE - You need to add the twitter.framework in your iOS XCode project or it will not even compile.
 
 
